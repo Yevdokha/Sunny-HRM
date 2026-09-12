@@ -1,2 +1,2 @@
-function calculateLeaveBalance(years) { return 24; }
+function calculateLeaveBalance(years) { let base = 24; if (years > 2) { base += (years - 2); } return base; }
 module.exports = { calculateLeaveBalance };
